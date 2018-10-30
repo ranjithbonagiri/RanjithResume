@@ -34,10 +34,17 @@ body {
 /* Wrapping element */
 /* Set some basic padding to keep content from hitting the edges */
 .navbar-default {
-    background: #1b1b1b;
+    background: rgba(27,27,27,0.4);
     border: 0;
+    height: 75px;
 }
-
+.navbar-brand {
+    padding: 0 0 0 20px;
+    zoom: 1.5;
+}
+.navbar-default > .container-fluid {
+    padding-top: 10px;
+}
 .navbar-nav > li > a {
     padding: 0;
     margin: 15px 20px;
@@ -66,7 +73,9 @@ body {
         color: #FFF;
         vertical-align: middle;
     }
-
+    .row {
+        margin: 0;
+    }
 /* blinking cursor */
 .typed-cursor {
     opacity: 1;

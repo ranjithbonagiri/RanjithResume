@@ -31,12 +31,6 @@ $(document).ready(function () {
 //    });
 //});
 
-
-
-
-
-
-
 // Map load
 
 google.maps.event.addDomListener(window, 'load', init);

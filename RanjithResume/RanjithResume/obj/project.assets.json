@@ -11501,23 +11501,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ranjithk\\.nuget\\packages\\": {},
+    "C:\\Users\\ranji\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ranjithk\\Desktop\\RanjithResume\\RanjithResume\\RanjithResume\\RanjithResume.csproj",
+      "projectUniqueName": "C:\\RanjithResume\\RanjithResume\\RanjithResume\\RanjithResume.csproj",
       "projectName": "RanjithResume",
-      "projectPath": "C:\\Users\\ranjithk\\Desktop\\RanjithResume\\RanjithResume\\RanjithResume\\RanjithResume.csproj",
-      "packagesPath": "C:\\Users\\ranjithk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ranjithk\\Desktop\\RanjithResume\\RanjithResume\\RanjithResume\\obj\\",
+      "projectPath": "C:\\RanjithResume\\RanjithResume\\RanjithResume\\RanjithResume.csproj",
+      "packagesPath": "C:\\Users\\ranji\\.nuget\\packages\\",
+      "outputPath": "C:\\RanjithResume\\RanjithResume\\RanjithResume\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ranjithk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ranji\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

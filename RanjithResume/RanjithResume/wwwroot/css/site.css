@@ -22,13 +22,23 @@
     src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(/lib/opensans/OpenSans-ExtraBold.ttf) format('truetype');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
 }
+@font-face {
+    font-family: "THEROCK";
+    src: url("/lib/THEROCK/THEROCK_.eot") format("eot"),url("/lib/THEROCK/THEROCK_.woff") format("woff"),url("/lib/THEROCK/THEROCK_.ttf") format("truetype"),url("/lib/THEROCK/THEROCK_.svg#THEROCK") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 /*Google OpenSans font End*/
-html, body, .intro-container, .inrto-content-wrap {
+html, body, .intro-container, .intro-content-wrap {
     height: 100%;
 }
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #070606;
+}
+.cursiveFont {
+    font-family: cursive;
 }
 
 /* Wrapping element */
@@ -65,13 +75,13 @@ ul.nav {
     background: #1b1b1b;
 }
 
-.inrto-content-wrap {
+.intro-content-wrap {
     display: table;
     text-align: center;
     width: 100%;
 }
 
-    .inrto-content-wrap > div {
+    .intro-content-wrap > div {
         display: table-cell;
         color: #FFF;
         vertical-align: middle;
@@ -132,7 +142,7 @@ ul.nav {
 .about-me {
     float: left;
     width: 100%;
-    padding: 90px 0 90px;
+    padding: 120px 0 90px;
     overflow: hidden;
 }
 
@@ -182,12 +192,12 @@ ul.nav {
 
 @keyframes leaves {
     0% {
-        //transform: rotateY(180deg);
+        /*transform: rotateY(180deg);*/
         transform: scale(1.0);
     }
 
     100% {
-        //transform: rotateY(360deg);
+        /*transform: rotateY(360deg);*/
         transform: scale(1.5);
     }
 }
@@ -207,7 +217,28 @@ ul.nav {
 #map {
     height: 100%;
 }
-
+.title-red {
+    margin: 0.2em 0 0.2em !important;
+    line-height: 1em !important;
+    font-family: THEROCK;
+    /*color: #990000;*/
+    font-size: 6em;
+}
+.red-color {
+    color: #990000;
+}
+.font-125em {
+    font-size: 1.25em;
+}
+.font-150em {
+    font-size: 1.5em;
+}
+.lh150em {
+    line-height: 1.5em;
+}
+.PADDB20PX {
+    padding-bottom: 20px;
+}
 .contact-address {
     background: #337ab7;
     padding: 20px;
@@ -257,9 +288,9 @@ ul.nav {
     font-weight: 700;
     outline: none;
     position: relative;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
@@ -273,9 +304,9 @@ ul.nav {
         content: '';
         position: absolute;
         z-index: -1;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
     }
 
     .btn-5a:before {
@@ -292,9 +323,9 @@ ul.nav {
         width: 100%;
         line-height: 2.5;
         font-size: 117%;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        transition: all 0.5s;
         left: 0;
         top: -146%;
     }
@@ -307,7 +338,7 @@ ul.nav {
         -webkit-backface-visibility: hidden;
         -moz-transition: all 0.3s;
         -moz-backface-visibility: hidden;
-        transition: all 0.3s;
+        transition: all 0.5s;
         backface-visibility: hidden;
     }
 
@@ -323,7 +354,13 @@ ul.nav {
     .btn-5a:hover:before {
         top: 0px;
     }
-
+.desc-list a {
+    color: #808080;
+}
+    .desc-list a:hover, .desc-list a:focus, .desc-list a:active {
+        color: #990000;
+        text-decoration: none;
+    }
 .icon-contact:before {
     content: "\f095";
     font-family: FontAwesome;
@@ -331,4 +368,28 @@ ul.nav {
 .icon-resume:before {
     content: "\f1c2";
     font-family: FontAwesome;
+}
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        zoom: 1.1;
+    }
+    .intro-text {
+        display: block;
+        font-size: 0.95em;
+    }
+    .title-red {
+        font-size: 2em;
+    }
+    .font-125em, .font-150em {
+        font-size: 1.15em;
+    }
+    .desc-list {
+        padding-left: 10px;
+    }
+    .btn-5a {
+        margin-bottom: 0; 
+    }
+    .navbar-collapse {
+        background:rgba(126, 119, 119,0.5);
+    }
 }

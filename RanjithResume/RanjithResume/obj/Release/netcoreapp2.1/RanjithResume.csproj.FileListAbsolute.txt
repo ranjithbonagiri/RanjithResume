@@ -30,3 +30,4 @@ C:\Users\ranjithk\Desktop\RanjithResume\RanjithResume\RanjithResume\obj\Release\
 C:\Users\ranjithk\Desktop\RanjithResume\RanjithResume\RanjithResume\obj\Release\netcoreapp2.1\RanjithResume.dll
 C:\Users\ranjithk\Desktop\RanjithResume\RanjithResume\RanjithResume\obj\Release\netcoreapp2.1\RanjithResume.pdb
 C:\Users\ranjithk\Desktop\RanjithResume\RanjithResume\RanjithResume\obj\Release\netcoreapp2.1\RanjithResume.csproj.CopyComplete
+C:\Users\ranjithk\Desktop\RanjithResume\RanjithResume\RanjithResume\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs

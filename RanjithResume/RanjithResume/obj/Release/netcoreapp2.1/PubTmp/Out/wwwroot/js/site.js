@@ -1,7 +1,6 @@
-﻿// Write your Javascript code.
-$(document).ready(function () {
+﻿$(document).ready(function () {
     var intro_text = new Typed('.intro-text', {
-        strings: ["^600 Ranjith Kumar ", "^600 a Front end Developer.", "^1000 a UI/UX Designer.", "^600 a Mobile app Developer."],
+        strings: ["^600 Ranjith Kumar. ", "^600 a Front end Developer.", "^1000 a UI/UX Designer.", "^600 a Mobile app Developer."],
         typeSpeed: 0,
         backSpeed: 0,
         startDelay: 1000,
@@ -21,7 +20,6 @@ $(document).ready(function () {
             scrollHorizontally: true
     });
 });
-
 //document.addEventListener('DOMContentLoaded', function () {
 //    Typed.new('.intro-text', {
 //        strings: ["^600 Ranjith Kumar Bonagiri.", "^600 a Front end Developer.", "^1000 a UI/UX Designer.", "^600 a Mobile app Developer."],
@@ -30,12 +28,6 @@ $(document).ready(function () {
 //        loop: true
 //    });
 //});
-
-
-
-
-
-
 
 // Map load
 
